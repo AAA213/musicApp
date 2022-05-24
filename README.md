@@ -1,9 +1,13 @@
 #下载后在VSCODE中打开该文件夹
 #在NeteaseCloudMusicApi目录上 右键打开集成终端输入
+npm install  express
+#等待 express安装完成后，允许
 node app
 #显示  server running @ http://localhost:3000  即为成功
 
 #然后在除NeteaseCloudMusicApi目录外的任意一个目录上，右键打开集成终端输入
+npm install
+#等待安卓完成后，输入
 npm run serve
 #稍等一会会显示两个链接
 #在游览器中输入第一个链接回车即可
